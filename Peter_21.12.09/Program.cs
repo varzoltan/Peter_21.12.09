@@ -19,7 +19,7 @@ namespace Peter_21._12._09
             *a.az összegüket;
             *b.különbségüket;
             *c.szorzatukat;
-            *d.hányadosukat, ha lehet!//
+            *d.hányadosukat, ha lehet!
             **/
             Console.Write("Adj meg egy számot: ");
             double szam2 = double.Parse(Console.ReadLine());
