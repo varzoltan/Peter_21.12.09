@@ -82,6 +82,20 @@ namespace Peter_21._12._09
                 Console.WriteLine($"A {szam10} a legkisebb szám!");
             }
 
+            //Másik megoldás
+            if (szam8 < szam9 && szam8 < szam10)
+            {
+                Console.WriteLine($"A {szam8} a legkisebb szám!");
+            }
+            if (szam9 < szam8 && szam9 < szam10)
+            {
+                Console.WriteLine($"A {szam9} a legkisebb szám!");
+            }
+            if (szam10 < szam9 && szam10 < szam8)
+            {
+                Console.WriteLine($"A {szam10} a legkisebb szám!");
+            }
+
             Console.ReadKey();
         }
     }
